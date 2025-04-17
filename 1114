@@ -1,0 +1,14 @@
+programa {
+	funcao inicio() {
+		inteiro senha
+
+            escreva("digite aqui uma senha: \n")
+            leia(senha)
+
+            se (senha != 2002) {
+                escreva("Senha Invalida\n")
+            }
+        senao 
+        escreva("Acesso Permitido\n")
+	}
+}
