@@ -1,0 +1,21 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro N, i
+        escreva("digite o numero para elevação \n")
+
+        // Lê o valor de N
+        leia(N)
+
+        // Percorre de 1 até N
+        para (i = 1; i <= N; i++)
+        {
+            // Verifica se é par
+            se (i % 2 == 0)
+            {
+                escreva(i, "^2 = ", i * i, "\n")
+            }
+        }
+    }
+}
