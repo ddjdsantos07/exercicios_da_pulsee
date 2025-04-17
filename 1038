@@ -1,0 +1,28 @@
+programa {
+	funcao inicio() {
+
+    inteiro codigo, quantidade 
+    real total
+    escreva("digite o codigo dos lanches a seguir!:\n")
+
+    leia(codigo)
+    leia(quantidade)
+
+    escolha (codigo){
+        caso 1:
+            (total = 4.00 * quantidade)
+        caso 2:
+            (total = 4.50 * quantidade)
+        caso 3:
+            (total = 5.00 * quantidade)
+        caso 4:
+            (total = 2.00 * quantidade)
+        caso 5:
+            (total = 1.50 * quantidade)
+            escreva("Total consumido.")
+    
+    se (total > 0)
+        escreva("Total: R$ ", total)
+      }
+	}
+}
