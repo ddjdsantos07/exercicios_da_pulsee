@@ -1,0 +1,36 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro codigo, alcool = 0, gasolina = 0, diesel = 0
+        escreva(" digite um codigo abaixo para iniciarmos: \n")
+
+        // Loop até receber o código 4
+        enquanto (verdadeiro)
+        {
+            leia(codigo)
+
+            // Verifica o código digitado
+            se (codigo == 1) {
+                alcool = alcool + 1
+            }
+            senao se (codigo == 2) {
+                gasolina = gasolina + 1
+            }
+            senao se (codigo == 3) {
+                diesel = diesel + 1
+            }
+            senao se (codigo == 4) {
+                // Finaliza o loop
+                pare
+            }
+            // Outros valores são ignorados
+        }
+
+        // Saída final
+        escreva("MUITO OBRIGADO\n")
+        escreva("Alcool: ", alcool, "\n")
+        escreva("Gasolina: ", gasolina, "\n")
+        escreva("Diesel: ", diesel, "\n")
+    }
+}
